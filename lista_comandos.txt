@@ -1,0 +1,16 @@
+mkdir curso_git_tsi 
+cd curso_git_tsi
+
+git init --initial-branch=main 
+git config --global user.name "Maria Aparecida" 
+git config --global user.email "maria.info108@gmail.com"
+
+touch arquivo.txt
+
+git add .
+git status
+git commit -m "Meu primeiro commit"
+git remote add https://github.com/MariaSilv255/curso-git-ead-ifrn.git
+git push origin main
+
+
